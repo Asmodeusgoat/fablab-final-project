@@ -1,0 +1,44 @@
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor and IDE directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+*.cert
+
+# Log files and crash dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local temporary files & caches
+.tmp/
+*.tmp
+*.bak
+.tmp_edge/
+
+# Dependencies & build output (if applicable)
+node_modules/
+dist/
+build/
+
+# Local preview script
+server.ps1

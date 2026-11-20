@@ -1,0 +1,2 @@
+Fab Lab Final Project - Complete Fabrication Archive (Placeholder)
+Includes: CAD models (.STEP), KiCad schematics, Arduino/C++ firmware, BOM (.CSV), and assembly guide.

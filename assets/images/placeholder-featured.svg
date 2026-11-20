@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#ececed"/>
+  <line x1="0" y1="0" x2="1000" y2="500" stroke="#d5d5d8" stroke-width="1.5"/>
+  <line x1="1000" y1="0" x2="0" y2="500" stroke="#d5d5d8" stroke-width="1.5"/>
+  <text x="50" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="0.1em" fill="#71717a" text-anchor="start">FEATURED IMAGE / VIDEO</text>
+</svg>

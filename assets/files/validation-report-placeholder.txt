@@ -1,0 +1,2 @@
+Fab Lab Final Project - System Validation & Benchmarking Report (Placeholder)
+Final test metrics, power consumption logs, and repeatability measurements.

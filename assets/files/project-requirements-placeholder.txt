@@ -1,0 +1,3 @@
+Fab Lab Final Project - Placeholder Resource File
+Project Specifications and Requirements Document v1.0
+This is a placeholder file for documentation demonstration purposes.

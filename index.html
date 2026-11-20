@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fab Lab Final Project Documentation - Academic digital fabrication process, research, development timeline, and outcome.">
+  <title>Fab Lab Final Project Documentation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner container">
+      <a href="#hero" class="brand-title" aria-label="Fab Lab Final Project home">PROJECT TITLE</a>
+      <nav class="site-nav" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#development" class="nav-link">Development</a>
+        <a href="#outcome" class="nav-link">Outcome</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero / Project Introduction -->
+    <section class="hero-section container" id="hero" aria-labelledby="heroTitle">
+      <div class="section-tag">FAB LAB / FINAL PROJECT</div>
+      <h1 class="hero-title" id="heroTitle">Project title goes here</h1>
+      <p class="hero-lead">A short, clear description of the project and what it intends to explore.</p>
+      
+      <div class="hero-media-wrapper">
+        <img 
+          src="assets/images/placeholder-hero.svg" 
+          alt="HERO MEDIA / FINAL BUILD IMAGE OR VIDEO (PLACEHOLDER)" 
+          class="media-placeholder hero-media"
+          width="1200" 
+          height="600"
+          loading="eager"
+        >
+      </div>
+    </section>
+
+    <div class="container"><hr class="section-divider"></div>
+
+    <!-- 01 / Concept & Inspiration -->
+    <section class="content-section container" id="about" aria-labelledby="conceptTitle">
+      <div class="section-tag">01 / CONCEPT &amp; INSPIRATION</div>
+      <div class="two-column-layout">
+        <div class="col-text">
+          <h2 class="section-heading" id="conceptTitle">The idea behind the project</h2>
+          <p class="section-lead">
+            Project background, inspiration, intended functions and initial thinking. 
+            Text and imagery share the space rather than forming a long stacked gallery.
+          </p>
+          <div class="detail-callout-box">
+            <span class="detail-callout-label">REFERENCE &amp; CONTEXT</span>
+            <p>Optional short supporting detail / reference</p>
+          </div>
+        </div>
+        <div class="col-media">
+          <img 
+            src="assets/images/placeholder-concept.svg" 
+            alt="CONCEPT SKETCH / REFERENCE" 
+            class="media-placeholder"
+            width="800" 
+            height="500"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="container"><hr class="section-divider"></div>
+
+    <!-- 02 / Development / Documentation -->
+    <section class="content-section container" id="development" aria-labelledby="devTitle">
+      <div class="section-tag">02 / DEVELOPMENT / DOCUMENTATION</div>
+      <div class="timeline-header-row">
+        <div class="timeline-heading-group">
+          <h2 class="section-heading" id="devTitle">Explore the development</h2>
+          <p class="section-subheading">Horizontal browsing &mdash; select an entry to open the full overlay.</p>
+        </div>
+        <div class="timeline-controls" aria-label="Development timeline navigation">
+          <button type="button" class="timeline-nav-btn prev-btn" id="timelinePrev" aria-label="Scroll left in timeline" title="Scroll left">
+            &larr;
+          </button>
+          <button type="button" class="timeline-nav-btn next-btn" id="timelineNext" aria-label="Scroll right in timeline" title="Scroll right">
+            &rarr;
+          </button>
+          <span class="timeline-scroll-indicator" id="scrollIndicator">SCROLL &gt;</span>
+        </div>
+      </div>
+
+      <!-- Horizontal scroll container -->
+      <div class="timeline-viewport" id="timelineViewport" tabindex="0" role="region" aria-label="Development entries scrollable carousel">
+        <div class="timeline-track" id="timelineTrack">
+          <!-- Populated dynamically via documentation.js and main.js -->
+        </div>
+      </div>
+    </section>
+
+    <div class="container"><hr class="section-divider"></div>
+
+    <!-- 03 / Final Outcome -->
+    <section class="content-section container" id="outcome" aria-labelledby="outcomeTitle">
+      <div class="section-tag">03 / FINAL OUTCOME</div>
+      <div class="two-column-layout">
+        <div class="col-text">
+          <h2 class="section-heading" id="outcomeTitle">What was built</h2>
+          <p class="section-lead">
+            Final result, brief explanation of how it works, key outcomes and links to project files. 
+            Avoid repeating the initial concept.
+          </p>
+
+          <div class="outcome-subblock">
+            <h3 class="outcome-subheading">Key Features &amp; Principles</h3>
+            <ul class="outcome-feature-list">
+              <li>Parametric physical housing fabricated with digital tools (laser cutting &amp; 3D printing).</li>
+              <li>Custom milled micro-controller PCB supporting embedded sensors and actuation.</li>
+              <li>Iterative testing pipeline balancing thermal, mechanical, and power budgets.</li>
+            </ul>
+          </div>
+
+          <div class="outcome-subblock">
+            <h3 class="outcome-subheading">Technical Files &amp; Downloads</h3>
+            <a href="assets/files/final-project-files.zip.txt" download class="file-download-box" title="Download project files archive">
+              <span class="file-box-title">PROJECT ARCHIVE / REPOSITORY (.ZIP)</span>
+              <span class="file-box-action">Download Files &darr;</span>
+            </a>
+          </div>
+
+          <div class="outcome-subblock">
+            <h3 class="outcome-subheading">Concluding Reflection</h3>
+            <p class="concluding-text">
+              Brief final assessment of fabrication constraints, materials efficacy, and prospective next iterations for the system.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-media">
+          <img 
+            src="assets/images/placeholder-outcome.svg" 
+            alt="FINAL DEMO / FINISHED PROJECT" 
+            class="media-placeholder"
+            width="900" 
+            height="550"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="container"><hr class="section-divider"></div>
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="site-footer container">
+    <div class="footer-left">
+      <span class="footer-bold">Fab Lab Final Project</span>
+      <span class="footer-sub">Documentation Archive</span>
+    </div>
+    <div class="footer-center">
+      <span>Author / Project ID Placeholder</span>
+    </div>
+    <div class="footer-right">
+      <a href="#hero" class="back-to-top" id="backToTop">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Documentation Overlay (Modal) -->
+  <div class="modal-backdrop" id="modalBackdrop" role="presentation" aria-hidden="true">
+    <div 
+      class="modal-panel" 
+      role="dialog" 
+      aria-modal="true" 
+      aria-labelledby="modalTitle" 
+      id="modalPanel" 
+      tabindex="-1"
+    >
+      <!-- Modal Top Bar -->
+      <div class="modal-header">
+        <div class="modal-header-meta">
+          <span class="modal-category-tag" id="modalCategoryTag">DEVELOPMENT / ENTRY 03</span>
+          <h2 class="modal-title" id="modalTitle">Prototype Development</h2>
+        </div>
+        <button 
+          type="button" 
+          class="modal-close-btn" 
+          id="modalCloseBtn" 
+          aria-label="Close documentation overlay"
+        >
+          &times; CLOSE
+        </button>
+      </div>
+
+      <!-- Modal Internally Scrollable Body -->
+      <div class="modal-body" id="modalBody">
+        <!-- Rendered dynamically by main.js based on active entry -->
+      </div>
+
+      <!-- Modal Footer with Previous / Next Controls -->
+      <div class="modal-footer">
+        <button type="button" class="modal-nav-btn prev" id="modalPrevBtn">
+          &lt; Previous entry
+        </button>
+        <span class="modal-counter-indicator" id="modalCounterIndicator">1 of 5</span>
+        <button type="button" class="modal-nav-btn next" id="modalNextBtn">
+          Next entry &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/documentation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
